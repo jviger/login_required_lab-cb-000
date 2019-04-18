@@ -1,6 +1,6 @@
 class SecretsController < ApplicationController
   before_action :require_login
-  def current_user
+  def show
   end
 
   private
