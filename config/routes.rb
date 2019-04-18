@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'sesions/current_user'
+
   get 'secrets/current_user'
 
   # The priority is based upon order of creation: first created -> highest priority.
